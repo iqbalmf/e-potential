@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#B71C1C"
+    tools:context="com.example.iqbalmfauzan.e_potential.Soal"
+    android:weightSum="1">
+
+    <EditText
+        android:id="@+id/etnomer"
+        android:layout_width="35dp"
+        android:layout_height="wrap_content"
+        android:hint="No"
+        android:inputType="number"
+        android:textColor="#FFFDE7" />
+
+    <TextView
+        android:layout_marginTop="8dp"
+        android:text="Buat Soal"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <EditText
+        android:layout_width="320dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:background="#F44336"
+        android:inputType="text"
+        android:hint="Masukkan Soal"
+        android:id="@+id/etSoal"
+        android:layout_weight="0.12"
+        android:textAlignment="center" />
+    <EditText
+        android:id="@+id/etJawaban1"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="106dp"
+        android:layout_height="50dp"
+        android:hint="Jawaban A"
+        android:inputType="text"
+        android:textColor="#FFFDE7" />
+    <EditText
+        android:id="@+id/etJawaban2"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="200dp"
+        android:layout_width="106dp"
+        android:layout_height="50dp"
+        android:hint="Jawaban B"
+        android:inputType="text"
+        android:textColor="#FFFDE7" />
+    <EditText
+        android:id="@+id/etJawaban3"
+        android:layout_marginTop="290dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="106dp"
+        android:layout_height="50dp"
+        android:hint="Jawaban C"
+        android:inputType="text"
+        android:textColor="#FFFDE7" />
+    <EditText
+        android:id="@+id/etJawabanBenar"
+        android:layout_marginTop="290dp"
+        android:layout_marginLeft="200dp"
+        android:layout_width="106dp"
+        android:layout_height="50dp"
+        android:hint="Jawaban D"
+        android:inputType="text"
+        android:textColor="#FFFDE7" />
+    <Button
+        android:id="@+id/btSubmit"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="380dp"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Submit"/>
+
+</RelativeLayout>

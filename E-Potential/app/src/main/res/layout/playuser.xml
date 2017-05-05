@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:paddingTop="30dp"
+    android:background="#0288D1"
+    >
+    <ImageView
+        android:layout_width="42dp"
+        android:layout_height="60dp"
+        android:background="@drawable/logo_sps1"
+        android:layout_gravity="center_horizontal"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="E-Potential"
+        android:layout_gravity="center_horizontal"
+        android:textSize="15dp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/etUsername"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:hint="Username"
+        android:inputType="text"/>
+
+
+
+    <Button
+        android:id="@+id/bPlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play"
+        android:textColor="#ECEFF1"
+        android:layout_marginTop="20dp"
+        android:background="#01579B"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/tRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login as Admin"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bAbout"
+        android:text="About"
+        android:background="#01579B"
+        android:textColor="#ECEFF1"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"/>
+
+
+
+
+</LinearLayout>

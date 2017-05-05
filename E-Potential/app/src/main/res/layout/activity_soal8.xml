@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#B71C1C"
+    tools:context="com.example.iqbalmfauzan.e_potential.Soal"
+    android:weightSum="1">
+
+
+
+
+    <TextView
+        android:layout_width="320dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:background="#F44336"
+        android:inputType="text"
+        android:text="Negara ASEAN yang bukan Kerajaan ? "
+        android:id="@+id/etSoal"
+        android:layout_weight="0.12"
+        android:gravity="center" />
+    <Button
+        android:id="@+id/soal1a"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="106dp"
+        android:layout_height="50dp"
+        android:text="Malaysia"
+        android:textColor="#212121"
+        android:background="#FCE4EC"
+        android:inputType="text"
+        android:gravity="center" />
+    <Button
+        android:id="@+id/soal1b"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="200dp"
+        android:layout_width="106dp"
+        android:layout_height="50dp"
+        android:text="Thailand"
+        android:gravity="center"
+        android:inputType="text"
+        android:textColor="#212121"
+        android:background="#FCE4EC"/>
+    <Button
+        android:id="@+id/soal1c"
+        android:layout_marginTop="290dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="106dp"
+        android:gravity="center"
+        android:layout_height="50dp"
+        android:text="Kamboja"
+        android:inputType="text"
+        android:textColor="#212121"
+        android:background="#FCE4EC" />
+    <Button
+        android:id="@+id/soal1d"
+        android:layout_marginTop="290dp"
+        android:layout_marginLeft="200dp"
+        android:layout_width="106dp"
+        android:gravity="center"
+        android:layout_height="50dp"
+        android:text="Filipina"
+        android:inputType="text"
+        android:textColor="#212121"
+        android:background="#FCE4EC"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BENAR"
+        android:id="@+id/tvbenar"
+        android:layout_alignTop="@+id/tvsalah"
+        android:layout_centerHorizontal="true"
+        android:gravity="center" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SALAH"
+        android:id="@+id/tvsalah"
+        android:layout_centerHorizontal="true"
+        android:gravity="center" />
+</RelativeLayout>

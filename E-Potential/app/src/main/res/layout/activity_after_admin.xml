@@ -1,0 +1,90 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:paddingTop="10dp"
+    android:background="#F44336"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Manage Soal"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="60dp"
+            android:layout_gravity="center">
+            <Button
+                android:id="@+id/bHapussoal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hapus Soal"
+
+                android:background="#B71C1C"
+                android:layout_gravity="center|left"/>
+            <Button
+                android:id="@+id/bEditsoal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Edit Soal"
+                android:layout_marginLeft="20dp"
+                android:background="#B71C1C"
+                android:layout_gravity="center|right"
+                />
+
+        </LinearLayout>
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        >
+        <Button
+            android:id="@+id/bBuatsoal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Buat Soal"
+
+            android:background="#B71C1C"
+            android:layout_gravity="center|left" />
+        <Button
+            android:id="@+id/bLihatsoal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Lihat Soal "
+            android:layout_marginLeft="20dp"
+            android:background="#B71C1C"
+            android:layout_gravity="center|right"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_logout"
+        android:textSize="16sp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Logout"
+        android:gravity="center"
+        android:onClick="logout"
+        android:layout_gravity="center"
+        android:textStyle="normal|bold" />
+
+
+
+
+
+
+
+
+
+</LinearLayout>

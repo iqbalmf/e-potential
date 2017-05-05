@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="65dp"
+    android:background="#A74D4D">
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvNomer"
+        android:text="No"
+        android:gravity="center"
+        android:layout_gravity="center_vertical"
+        />
+
+    <TextView
+        android:layout_width="95dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvSoal"
+        android:text="Soal "
+        android:gravity="center"
+        android:layout_gravity="center_vertical"
+        />
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvjawabanA"
+        android:text="A"
+        android:gravity="center"
+        android:layout_gravity="center_vertical"
+        />
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvjawabanB"
+        android:text="B"
+        android:gravity="center"
+        android:layout_gravity="center_vertical"
+        />
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvjawabanC"
+        android:text="C"
+        android:gravity="center"
+        android:layout_gravity="center_vertical"
+        />
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvjawabanD"
+        android:text="D"
+        android:gravity="center"
+        android:layout_gravity="center_vertical"
+        />
+
+</LinearLayout>

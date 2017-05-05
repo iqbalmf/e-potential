@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.iqbalmfauzan.e_potential">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity
+            android:name=".SplashScreen"
+            android:configChanges="keyboard|orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginAdmin" />
+        <activity android:name=".PlayUser" />
+        <activity android:name=".AfterAdmin" />
+        <activity android:name=".AfterPlayer" />
+        <activity android:name=".Soal" />
+        <activity android:name=".ListAcc" />
+        <activity android:name=".EditSoal" />
+        <activity android:name=".HapusSoal" />
+        <activity android:name=".About" />
+        <activity android:name=".soal.soal1" />
+        <activity android:name=".soal1" />
+        <activity android:name=".soal2" />
+        <activity android:name=".soal3" />
+        <activity android:name=".soal4" />
+        <activity android:name=".soal5" />
+        <activity android:name=".soal6" />
+        <activity android:name=".soal7" />
+        <activity android:name=".soal8" />
+        <activity android:name=".soal9" />
+        <activity android:name=".soal10" />
+        <activity android:name=".score"></activity>
+    </application>
+
+</manifest>
